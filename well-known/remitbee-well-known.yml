@@ -1,0 +1,21 @@
+generated: '2026-07-21'
+method: searched
+source: live probes of https://www.remitbee.com/.well-known/*
+host: https://www.remitbee.com
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+notes: >-
+  No /.well-known discovery documents are published. Remitbee does publish a
+  /llms.txt (HTTP 200) — an HTML-wrapped "LLM Ingestion Instructions" page
+  listing 89 Canada-outbound money-transfer corridors, each paired with an
+  LLM-optimized JSON variant of its send-money page. Captured verbatim at
+  llms/remitbee-llms.txt.

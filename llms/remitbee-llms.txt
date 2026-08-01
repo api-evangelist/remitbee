@@ -1,0 +1,2185 @@
+<!-- generated: '2026-07-21' | method: searched | source: https://www.remitbee.com/llms.txt -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RemitBee - LLM Ingestion Instructions</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #1e1e1e;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .container {
+            background: #252526;
+            padding: 30px;
+            border-radius: 8px;
+            border: 1px solid #3e3e42;
+        }
+        h1, h2 {
+            color: #ffffff;
+            border-bottom: 2px solid #4ec9b0;
+            padding-bottom: 8px;
+        }
+        .comment {
+            color: #ffffff;
+        }
+        .section-header {
+            color: #ffffff;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        a {
+            color: #ffffff;
+            text-decoration: underline;
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #2ebc31;
+            text-decoration: underline;
+        }
+        .corridor {
+            margin: 15px 0;
+            padding: 10px;
+            background: #2d2d30;
+            border-left: 3px solid #2ebc31;
+        }
+        .corridor-header {
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .currency-info {
+            color: #ffffff;
+            margin: 5px 0;
+        }
+        .description {
+            color: #ffffff;
+            font-style: italic;
+        }
+        .separator {
+            color: #ffffff;
+            margin: 20px 0;
+        }
+        pre {
+            background: #1e1e1e;
+            padding: 15px;
+            border-radius: 4px;
+            overflow-x: auto;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <pre>
+<span class="comment"># LLM Ingestion Instructions – RemitBee
+# 
+# This file pairs corridor HTML pages with LLM-optimized structured JSON.
+#
+# Note: Only URLs with valid JSON variants and HTTP status 200 are included.
+# 
+# Total Corridors: 89
+# Last Updated: 2026-07-21</span>
+
+<span class="separator"># ==============================================================================
+# MONEY TRANSFER CORRIDORS - Send Money From Canada To:
+# ==============================================================================</span>
+
+<span class="corridor-header">## Canada → Algeria (CA → DZ)</span>
+https://www.remitbee.com/send-money/algeria https://www.remitbee.com/ca.en.send-money/algeria.json
+<span class="currency-info">Currency: Algerian Dinar (DZD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Algeria with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Andorra (CA → AD)</span>
+https://www.remitbee.com/send-money/andorra https://www.remitbee.com/ca.en.send-money/andorra.json
+<span class="currency-info">Currency: Andorra Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to Andorra for personal expenses or savings, with cross-border transfers designed for reliability and compliant delivery.</span>
+
+<span class="corridor-header">## Canada → Argentina (CA → AR)</span>
+https://www.remitbee.com/send-money/argentina https://www.remitbee.com/ca.en.send-money/argentina.json
+<span class="currency-info">Currency: Argentine Peso (ARS)</span>
+<span class="description">Description: Send money from Canada to Argentina for family support or local expenses, using a corridor focused on dependable international transfers.</span>
+
+<span class="corridor-header">## Canada → Australia (CA → AU)</span>
+https://www.remitbee.com/send-money/australia https://www.remitbee.com/ca.en.send-money/australia.json
+<span class="currency-info">Currency: Australian Dollar (AUD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Australia with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Austria (CA → AT)</span>
+https://www.remitbee.com/send-money/austria https://www.remitbee.com/ca.en.send-money/austria.json
+<span class="currency-info">Currency: Austrian Euro (EUR)</span>
+<span class="description">Description: Transfer funds from Canada to Austria for personal or professional needs through a corridor designed for reliable cross-border delivery.</span>
+
+<span class="corridor-header">## Canada → Bahrain (CA → BH)</span>
+https://www.remitbee.com/send-money/bahrain https://www.remitbee.com/ca.en.send-money/bahrain.json
+<span class="currency-info">Currency: Bahraini Dinar (BHD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Bahrain with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Bangladesh (CA → BD)</span>
+https://www.remitbee.com/send-money/bangladesh https://www.remitbee.com/ca.en.send-money/bangladesh.json
+<span class="currency-info">Currency: Bangladeshi Taka (BDT)</span>
+<span class="description">Description: Send money from Canada to Bangladesh to support family expenses or savings, with transfers focused on reliability and timely delivery.</span>
+
+<span class="corridor-header">## Canada → Belgium (CA → BE)</span>
+https://www.remitbee.com/send-money/belgium https://www.remitbee.com/ca.en.send-money/belgium.json
+<span class="currency-info">Currency: Belgian Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Belgium for household or financial needs using a stable and well-established international transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Brazil (CA → BR)</span>
+https://www.remitbee.com/send-money/brazil https://www.remitbee.com/ca.en.send-money/brazil.json
+<span class="currency-info">Currency: Brazilian Real (BRL)</span>
+<span class="description">Description: Transfer funds from Canada to Brazil for personal or family needs, supported by a corridor designed for consistent international delivery.</span>
+
+<span class="corridor-header">## Canada → Burkina Faso (CA → BF)</span>
+https://www.remitbee.com/send-money/burkina-faso https://www.remitbee.com/ca.en.send-money/burkina-faso.json
+<span class="currency-info">Currency: Burkina Faso CFA Franc (XOF)</span>
+<span class="description">Description: Send money from Canada to Burkina Faso for household support or essential needs using reliable cross-border transfer channels.</span>
+
+<span class="corridor-header">## Canada → Cameroon (CA → CM)</span>
+https://www.remitbee.com/send-money/cameroon https://www.remitbee.com/ca.en.send-money/cameroon.json
+<span class="currency-info">Currency: Cameroon CFA franc (XAF)</span>
+<span class="description">Description: Send money from Canada to Cameroon for personal support or household needs via a corridor focused on reliable delivery.</span>
+
+<span class="corridor-header">## Canada → Chile (CA → CL)</span>
+https://www.remitbee.com/send-money/chile https://www.remitbee.com/ca.en.send-money/chile.json
+<span class="currency-info">Currency: Chilean Peso (CLP)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Chile with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → China (CA → CN)</span>
+https://www.remitbee.com/send-money/china https://www.remitbee.com/ca.en.send-money/china.json
+<span class="currency-info">Currency: Yuan Renminbi (CNY)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to China with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Colombia (CA → CO)</span>
+https://www.remitbee.com/send-money/colombia https://www.remitbee.com/ca.en.send-money/colombia.json
+<span class="currency-info">Currency: Colombian Peso (COP)</span>
+<span class="description">Description: Transfer funds from Canada to Colombia for family support or daily expenses using a consistent cross-border money transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Costa Rica (CA → CR)</span>
+https://www.remitbee.com/send-money/costa-rica https://www.remitbee.com/ca.en.send-money/costa-rica.json
+<span class="currency-info">Currency: Costa Rican Colon (CRC)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Costa Rica with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Cote d Ivoire (CA → CI)</span>
+https://www.remitbee.com/send-money/cote-d-ivoire https://www.remitbee.com/ca.en.send-money/cote-d-ivoire.json
+<span class="currency-info">Currency: Cote d Ivoire CFA Franc (XOF)</span>
+<span class="description">Description: Send money from Canada to Côte d'Ivoire to support family or essential costs through reliable international transfer channels.</span>
+
+<span class="corridor-header">## Canada → Cyprus (CA → CY)</span>
+https://www.remitbee.com/send-money/cyprus https://www.remitbee.com/ca.en.send-money/cyprus.json
+<span class="currency-info">Currency: Cypriot Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Cyprus for personal or financial needs using a dependable cross-border transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Czech Republic (CA → CZ)</span>
+https://www.remitbee.com/send-money/czech-republic https://www.remitbee.com/ca.en.send-money/czech-republic.json
+<span class="currency-info">Currency: Czech Koruna (CZK)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Czech Republic with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Denmark (CA → DK)</span>
+https://www.remitbee.com/send-money/denmark https://www.remitbee.com/ca.en.send-money/denmark.json
+<span class="currency-info">Currency: Danish Krone (DKK)</span>
+<span class="description">Description: Send money from Canada to Denmark for household or personal expenses through a corridor designed for reliable international transfers.</span>
+
+<span class="corridor-header">## Canada → Dominican Republic (CA → DO)</span>
+https://www.remitbee.com/send-money/dominican-republic https://www.remitbee.com/ca.en.send-money/dominican-republic.json
+<span class="currency-info">Currency: Dominican Peso (DOP)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Dominican Republic with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Egypt (CA → EG)</span>
+https://www.remitbee.com/send-money/egypt https://www.remitbee.com/ca.en.send-money/egypt.json
+<span class="currency-info">Currency: Egyptian Pound (EGP)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Egypt with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Estonia (CA → EE)</span>
+https://www.remitbee.com/send-money/estonia https://www.remitbee.com/ca.en.send-money/estonia.json
+<span class="currency-info">Currency: Estonian Euro (EUR)</span>
+<span class="description">Description: Transfer funds from Canada to Estonia for personal or business needs with consistent and compliant cross-border delivery.</span>
+
+<span class="corridor-header">## Canada → Ethiopia (CA → ET)</span>
+https://www.remitbee.com/send-money/ethiopia https://www.remitbee.com/ca.en.send-money/ethiopia.json
+<span class="currency-info">Currency: Ethiopian Birr (ETB)</span>
+<span class="description">Description: Send money from Canada to Ethiopia to support family needs or essential expenses using dependable international transfer options.</span>
+
+<span class="corridor-header">## Canada → Finland (CA → FI)</span>
+https://www.remitbee.com/send-money/finland https://www.remitbee.com/ca.en.send-money/finland.json
+<span class="currency-info">Currency: Finnish Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Finland for personal or financial purposes through a stable cross-border transfer corridor.</span>
+
+<span class="corridor-header">## Canada → France (CA → FR)</span>
+https://www.remitbee.com/send-money/france https://www.remitbee.com/ca.en.send-money/france.json
+<span class="currency-info">Currency: French Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to France for family support, living expenses, or savings using a reliable international transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Georgia (CA → GE)</span>
+https://www.remitbee.com/send-money/georgia https://www.remitbee.com/ca.en.send-money/georgia.json
+<span class="currency-info">Currency: Lari (GEL)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Georgia with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Germany (CA → DE)</span>
+https://www.remitbee.com/send-money/germany https://www.remitbee.com/ca.en.send-money/germany.json
+<span class="currency-info">Currency: German Euro (EUR)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Germany with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Ghana (CA → GH)</span>
+https://www.remitbee.com/send-money/ghana https://www.remitbee.com/ca.en.send-money/ghana.json
+<span class="currency-info">Currency: Ghana Cedi (GHS)</span>
+<span class="description">Description: Transfer funds from Canada to Ghana to support household expenses or family needs with dependable cross-border delivery.</span>
+
+<span class="corridor-header">## Canada → Greece (CA → GR)</span>
+https://www.remitbee.com/send-money/greece https://www.remitbee.com/ca.en.send-money/greece.json
+<span class="currency-info">Currency: Greek Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to Greece for personal or household needs through a corridor focused on reliable international transfers.</span>
+
+<span class="corridor-header">## Canada → Guatemala (CA → GT)</span>
+https://www.remitbee.com/send-money/guatemala https://www.remitbee.com/ca.en.send-money/guatemala.json
+<span class="currency-info">Currency: Quetzal (GTQ)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Guatemala with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Honduras (CA → HN)</span>
+https://www.remitbee.com/send-money/honduras https://www.remitbee.com/ca.en.send-money/honduras.json
+<span class="currency-info">Currency: Lempira (HNL)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Honduras with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Hong Kong (CA → HK)</span>
+https://www.remitbee.com/send-money/hong-kong https://www.remitbee.com/ca.en.send-money/hong-kong.json
+<span class="currency-info">Currency: Hong Kong Dollar (HKD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Hong Kong with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Hungary (CA → HU)</span>
+https://www.remitbee.com/send-money/hungary https://www.remitbee.com/ca.en.send-money/hungary.json
+<span class="currency-info">Currency: Forint (HUF)</span>
+<span class="description">Description: Send money from Canada to Hungary for personal or financial needs with reliable international money transfer support.</span>
+
+<span class="corridor-header">## Canada → India (CA → IN)</span>
+https://www.remitbee.com/send-money/india https://www.remitbee.com/ca.en.send-money/india.json
+<span class="currency-info">Currency: Indian Rupee (INR)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to India with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Indonesia (CA → ID)</span>
+https://www.remitbee.com/send-money/indonesia https://www.remitbee.com/ca.en.send-money/indonesia.json
+<span class="currency-info">Currency: Rupiah (IDR)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Indonesia with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Ireland (CA → IE)</span>
+https://www.remitbee.com/send-money/ireland https://www.remitbee.com/ca.en.send-money/ireland.json
+<span class="currency-info">Currency: Irish Euro (EUR)</span>
+<span class="description">Description: Transfer funds from Canada to Ireland for family support or personal expenses through a dependable cross-border corridor.</span>
+
+<span class="corridor-header">## Canada → Israel (CA → IL)</span>
+https://www.remitbee.com/send-money/israel https://www.remitbee.com/ca.en.send-money/israel.json
+<span class="currency-info">Currency: New Israeli Sheqel (ILS)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Israel with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Italy (CA → IT)</span>
+https://www.remitbee.com/send-money/italy https://www.remitbee.com/ca.en.send-money/italy.json
+<span class="currency-info">Currency: Italian Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to Italy for household expenses, family support, or savings using a reliable international transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Jamaica (CA → JM)</span>
+https://www.remitbee.com/send-money/jamaica https://www.remitbee.com/ca.en.send-money/jamaica.json
+<span class="currency-info">Currency: Jamaican Dollar (JMD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Jamaica with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Japan (CA → JP)</span>
+https://www.remitbee.com/send-money/japan https://www.remitbee.com/ca.en.send-money/japan.json
+<span class="currency-info">Currency: Yen (JPY)</span>
+<span class="description">Description: Move money from Canada to Japan for personal or financial needs through a corridor designed for consistent cross-border transfers.</span>
+
+<span class="corridor-header">## Canada → Jordan (CA → JO)</span>
+https://www.remitbee.com/send-money/jordan https://www.remitbee.com/ca.en.send-money/jordan.json
+<span class="currency-info">Currency: Jordanian Dinar (JOD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Jordan with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Kazakhstan (CA → KZ)</span>
+https://www.remitbee.com/send-money/kazakhstan https://www.remitbee.com/ca.en.send-money/kazakhstan.json
+<span class="currency-info">Currency: Tenge (KZT)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Kazakhstan with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Kenya (CA → KE)</span>
+https://www.remitbee.com/send-money/kenya https://www.remitbee.com/ca.en.send-money/kenya.json
+<span class="currency-info">Currency: Kenyan Shilling (KES)</span>
+<span class="description">Description: Send money from Canada to Kenya to support family or local expenses using dependable international transfer channels.</span>
+
+<span class="corridor-header">## Canada → Kuwait (CA → KW)</span>
+https://www.remitbee.com/send-money/kuwait https://www.remitbee.com/ca.en.send-money/kuwait.json
+<span class="currency-info">Currency: Kuwaiti Dinar (KWD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Kuwait with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Kyrgyzstan (CA → KG)</span>
+https://www.remitbee.com/send-money/kyrgyzstan https://www.remitbee.com/ca.en.send-money/kyrgyzstan.json
+<span class="currency-info">Currency: Som (KGS)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Kyrgyzstan with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Luxembourg (CA → LU)</span>
+https://www.remitbee.com/send-money/luxembourg https://www.remitbee.com/ca.en.send-money/luxembourg.json
+<span class="currency-info">Currency: Luxembourg Euro (EUR)</span>
+<span class="description">Description: Transfer funds from Canada to Luxembourg for personal or professional needs through a stable cross-border transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Malaysia (CA → MY)</span>
+https://www.remitbee.com/send-money/malaysia https://www.remitbee.com/ca.en.send-money/malaysia.json
+<span class="currency-info">Currency: Malaysian Ringgit (MYR)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Malaysia with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Malta (CA → MT)</span>
+https://www.remitbee.com/send-money/malta https://www.remitbee.com/ca.en.send-money/malta.json
+<span class="currency-info">Currency: Maltese Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Malta for personal or household expenses through dependable cross-border transfer options.</span>
+
+<span class="corridor-header">## Canada → Mexico (CA → MX)</span>
+https://www.remitbee.com/send-money/mexico https://www.remitbee.com/ca.en.send-money/mexico.json
+<span class="currency-info">Currency: Mexican Peso (MXN)</span>
+<span class="description">Description: Transfer funds from Canada to Mexico for family support or daily expenses through a reliable cross-border money transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Monaco (CA → MC)</span>
+https://www.remitbee.com/send-money/monaco https://www.remitbee.com/ca.en.send-money/monaco.json
+<span class="currency-info">Currency: Monaco Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to Monaco for personal or financial needs using dependable international transfer options.</span>
+
+<span class="corridor-header">## Canada → Montenegro (CA → ME)</span>
+https://www.remitbee.com/send-money/montenegro https://www.remitbee.com/ca.en.send-money/montenegro.json
+<span class="currency-info">Currency: Montenegro Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Montenegro for household or personal expenses through reliable cross-border transfers.</span>
+
+<span class="corridor-header">## Canada → Nepal (CA → NP)</span>
+https://www.remitbee.com/send-money/nepal https://www.remitbee.com/ca.en.send-money/nepal.json
+<span class="currency-info">Currency: Nepalese Rupee (NPR)</span>
+<span class="description">Description: Send money from Canada to Nepal to support family expenses or savings with reliable international transfer options.</span>
+
+<span class="corridor-header">## Canada → Netherlands (CA → NL)</span>
+https://www.remitbee.com/send-money/netherlands https://www.remitbee.com/ca.en.send-money/netherlands.json
+<span class="currency-info">Currency: Netherlands Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to the Netherlands for personal or financial needs using a stable cross-border transfer corridor.</span>
+
+<span class="corridor-header">## Canada → New Zealand (CA → NZ)</span>
+https://www.remitbee.com/send-money/new-zealand https://www.remitbee.com/ca.en.send-money/new-zealand.json
+<span class="currency-info">Currency: New Zealand Dollar (NZD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to New Zealand with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Nigeria (CA → NG)</span>
+https://www.remitbee.com/send-money/nigeria https://www.remitbee.com/ca.en.send-money/nigeria.json
+<span class="currency-info">Currency: Naira (NGN)</span>
+<span class="description">Description: Send money from Canada to Nigeria for personal or business needs, supported by dependable cross-border transfer options.</span>
+
+<span class="corridor-header">## Canada → Norway (CA → NO)</span>
+https://www.remitbee.com/send-money/norway https://www.remitbee.com/ca.en.send-money/norway.json
+<span class="currency-info">Currency: Norwegian Krone (NOK)</span>
+<span class="description">Description: Transfer funds from Canada to Norway for household or personal expenses through a reliable international transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Oman (CA → OM)</span>
+https://www.remitbee.com/send-money/oman https://www.remitbee.com/ca.en.send-money/oman.json
+<span class="currency-info">Currency: Rial Omani (OMR)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Oman with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Pakistan (CA → PK)</span>
+https://www.remitbee.com/send-money/pakistan https://www.remitbee.com/ca.en.send-money/pakistan.json
+<span class="currency-info">Currency: Pakistani Rupee (PKR)</span>
+<span class="description">Description: Send money from Canada to Pakistan to support family needs or essential expenses using dependable cross-border delivery.</span>
+
+<span class="corridor-header">## Canada → Paraguay (CA → PY)</span>
+https://www.remitbee.com/send-money/paraguay https://www.remitbee.com/ca.en.send-money/paraguay.json
+<span class="currency-info">Currency: Guarani (PYG)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Paraguay with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Peru (CA → PE)</span>
+https://www.remitbee.com/send-money/peru https://www.remitbee.com/ca.en.send-money/peru.json
+<span class="currency-info">Currency: Nuevo Sol (PEN)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Peru with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Philippines (CA → PH)</span>
+https://www.remitbee.com/send-money/philippines https://www.remitbee.com/ca.en.send-money/philippines.json
+<span class="currency-info">Currency: Philippine Peso (PHP)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Philippines with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Poland (CA → PL)</span>
+https://www.remitbee.com/send-money/poland https://www.remitbee.com/ca.en.send-money/poland.json
+<span class="currency-info">Currency: Zloty (PLN)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Poland with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Portugal (CA → PT)</span>
+https://www.remitbee.com/send-money/portugal https://www.remitbee.com/ca.en.send-money/portugal.json
+<span class="currency-info">Currency: Portuguese Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Portugal for personal or household needs through consistent international transfer options.</span>
+
+<span class="corridor-header">## Canada → Qatar (CA → QA)</span>
+https://www.remitbee.com/send-money/qatar https://www.remitbee.com/ca.en.send-money/qatar.json
+<span class="currency-info">Currency: Qatari Rial (QAR)</span>
+<span class="description">Description: Send money from Canada to Qatar for family support or personal expenses using a reliable cross-border transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Romania (CA → RO)</span>
+https://www.remitbee.com/send-money/romania https://www.remitbee.com/ca.en.send-money/romania.json
+<span class="currency-info">Currency: New Romanian Leu (RON)</span>
+<span class="description">Description: Transfer funds from Canada to Romania for household or personal needs through dependable international delivery.</span>
+
+<span class="corridor-header">## Canada → Rwanda (CA → RW)</span>
+https://www.remitbee.com/send-money/rwanda https://www.remitbee.com/ca.en.send-money/rwanda.json
+<span class="currency-info">Currency: Rwanda Franc (RWF)</span>
+<span class="description">Description: Send money from Canada to Rwanda to support family expenses or local needs using reliable international transfers.</span>
+
+<span class="corridor-header">## Canada → San Marino (CA → SM)</span>
+https://www.remitbee.com/send-money/san-marino https://www.remitbee.com/ca.en.send-money/san-marino.json
+<span class="currency-info">Currency: Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to San Marino for personal or financial needs through consistent cross-border transfer channels.</span>
+
+<span class="corridor-header">## Canada → Saudi Arabia (CA → SA)</span>
+https://www.remitbee.com/send-money/saudi-arabia https://www.remitbee.com/ca.en.send-money/saudi-arabia.json
+<span class="currency-info">Currency: Saudi Riyal (SAR)</span>
+<span class="description">Description: Send money from Canada to Saudi Arabia for family support or living expenses using dependable international transfers.</span>
+
+<span class="corridor-header">## Canada → Senegal (CA → SN)</span>
+https://www.remitbee.com/send-money/senegal https://www.remitbee.com/ca.en.send-money/senegal.json
+<span class="currency-info">Currency: Senegal CFA Franc (XOF)</span>
+<span class="description">Description: Transfer funds from Canada to Senegal to support family or essential expenses through reliable cross-border delivery.</span>
+
+<span class="corridor-header">## Canada → Sierra Leone (CA → SL)</span>
+https://www.remitbee.com/send-money/sierra-leone https://www.remitbee.com/ca.en.send-money/sierra-leone.json
+<span class="currency-info">Currency: Leone (SLE)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Sierra Leone with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Singapore (CA → SG)</span>
+https://www.remitbee.com/send-money/singapore https://www.remitbee.com/ca.en.send-money/singapore.json
+<span class="currency-info">Currency: Singapore Dollar (SGD)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Singapore with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Slovakia (CA → SK)</span>
+https://www.remitbee.com/send-money/slovakia https://www.remitbee.com/ca.en.send-money/slovakia.json
+<span class="currency-info">Currency: Slovakia Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to Slovakia for personal or household needs using a stable international transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Slovenia (CA → SI)</span>
+https://www.remitbee.com/send-money/slovenia https://www.remitbee.com/ca.en.send-money/slovenia.json
+<span class="currency-info">Currency: Slovenia Euro (EUR)</span>
+<span class="description">Description: Move money from Canada to Slovenia for family support or financial needs through dependable cross-border transfers.</span>
+
+<span class="corridor-header">## Canada → South Africa (CA → ZA)</span>
+https://www.remitbee.com/send-money/south-africa https://www.remitbee.com/ca.en.send-money/south-africa.json
+<span class="currency-info">Currency: Rand (ZAR)</span>
+<span class="description">Description: Send money from Canada to South Africa for personal or household expenses using reliable international transfer options.</span>
+
+<span class="corridor-header">## Canada → South Korea (CA → KR)</span>
+https://www.remitbee.com/send-money/south-korea https://www.remitbee.com/ca.en.send-money/south-korea.json
+<span class="currency-info">Currency: South Korean Won (KRW)</span>
+<span class="description">Description: Transfer funds from Canada to South Korea for personal or financial needs through a consistent cross-border corridor.</span>
+
+<span class="corridor-header">## Canada → Spain (CA → ES)</span>
+https://www.remitbee.com/send-money/spain https://www.remitbee.com/ca.en.send-money/spain.json
+<span class="currency-info">Currency: Spanish Euro (EUR)</span>
+<span class="description">Description: Send money from Canada to Spain for family support or living expenses using a dependable international transfer corridor.</span>
+
+<span class="corridor-header">## Canada → Sri Lanka (CA → LK)</span>
+https://www.remitbee.com/send-money/sri-lanka https://www.remitbee.com/ca.en.send-money/sri-lanka.json
+<span class="currency-info">Currency: Sri Lanka Rupee (LKR)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Sri Lanka with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Sweden (CA → SE)</span>
+https://www.remitbee.com/send-money/sweden https://www.remitbee.com/ca.en.send-money/sweden.json
+<span class="currency-info">Currency: Swedish Krona (SEK)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Sweden with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Switzerland (CA → CH)</span>
+https://www.remitbee.com/send-money/switzerland https://www.remitbee.com/ca.en.send-money/switzerland.json
+<span class="currency-info">Currency: Swiss Franc (CHF)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Switzerland with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Tajikistan (CA → TJ)</span>
+https://www.remitbee.com/send-money/tajikistan https://www.remitbee.com/ca.en.send-money/tajikistan.json
+<span class="currency-info">Currency: Somoni (TJS)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Tajikistan with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Tanzania (CA → TZ)</span>
+https://www.remitbee.com/send-money/tanzania https://www.remitbee.com/ca.en.send-money/tanzania.json
+<span class="currency-info">Currency: Tanzanian Shilling (TZS)</span>
+<span class="description">Description: Move money from Canada to Tanzania to support family or essential needs through reliable cross-border transfers.</span>
+
+<span class="corridor-header">## Canada → Thailand (CA → TH)</span>
+https://www.remitbee.com/send-money/thailand https://www.remitbee.com/ca.en.send-money/thailand.json
+<span class="currency-info">Currency: Baht (THB)</span>
+<span class="description">Description: Send money from Canada to Thailand for personal or household expenses using consistent international transfer options.</span>
+
+<span class="corridor-header">## Canada → Turkey (CA → TR)</span>
+https://www.remitbee.com/send-money/turkey https://www.remitbee.com/ca.en.send-money/turkey.json
+<span class="currency-info">Currency: Turkish Lira (TRY)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Turkey with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → Uganda (CA → UG)</span>
+https://www.remitbee.com/send-money/uganda https://www.remitbee.com/ca.en.send-money/uganda.json
+<span class="currency-info">Currency: Uganda Shilling (UGX)</span>
+<span class="description">Description: Send money from Canada to Uganda for household support or family needs using reliable cross-border transfer channels.</span>
+
+<span class="corridor-header">## Canada → Ukraine (CA → UA)</span>
+https://www.remitbee.com/send-money/ukraine https://www.remitbee.com/ca.en.send-money/ukraine.json
+<span class="currency-info">Currency: Hryvnia (UAH)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Ukraine with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → United Arab Emirates (CA → AE)</span>
+https://www.remitbee.com/send-money/united-arab-emirates https://www.remitbee.com/ca.en.send-money/united-arab-emirates.json
+<span class="currency-info">Currency: UAE Dirham (AED)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to United Arab Emirates with competitive exchange rates.</span>
+
+<span class="corridor-header">## Canada → United Kingdom (CA → GB)</span>
+https://www.remitbee.com/send-money/united-kingdom https://www.remitbee.com/ca.en.send-money/united-kingdom.json
+<span class="currency-info">Currency: Pound Sterling (GBP)</span>
+<span class="description">Description: Move money from Canada to the United Kingdom for personal transfers or expenses through a high-volume cross-border corridor.</span>
+
+<span class="corridor-header">## Canada → United States (CA → US)</span>
+https://www.remitbee.com/send-money/us https://www.remitbee.com/ca.en.send-money/us.json
+<span class="currency-info">Currency: United States Dollar (USD)</span>
+<span class="description">Description: Move money from Canada to the United States for personal transfers or bill payments through a high-volume cross-border corridor.</span>
+
+<span class="corridor-header">## Canada → Uzbekistan (CA → UZ)</span>
+https://www.remitbee.com/send-money/uzbekistan https://www.remitbee.com/ca.en.send-money/uzbekistan.json
+<span class="currency-info">Currency: Uzbekistan Sum (UZS)</span>
+<span class="description">Description: Fast, secure online money transfers from Canada to Uzbekistan with competitive exchange rates.</span>
+
+<span class="separator"># ==============================================================================
+# LIVE TRANSFER RATES — RemitBee API (real-time snapshot)
+# ==============================================================================</span>
+<span class="comment"># Generated: 2026-07-21T04:37:13.237Z
+# Base currency: CAD (Canadian Dollar). All rates are 1 CAD → destination currency.
+#
+# RESPONSE STRUCTURE:
+# The JSON below has two top-level keys:
+#
+# 1. "rates" (array) — Each object is one transfer corridor:
+#    - country_code    : ISO3 code of the RECEIVING country (e.g. "IND")
+#    - currency_name   : Full name of destination currency (e.g. "Indian Rupee")
+#    - currency_code   : ISO currency code (e.g. "INR")
+#    - rate            : Exchange rate — 1 CAD buys this many units of the destination currency
+#    - special_rate    : First-time user promotional rate (better than standard). null if none.
+#                        Only applies to FIRST-TIME customers on their first transfer.
+#                        Only the first special_rate_limit CAD of the transfer uses this rate;
+#                        any amount above special_rate_limit converts at the standard "rate".
+#    - special_rate_limit : Max CAD amount that converts at special_rate. null if no promo.
+#    - receiving_methods : Available delivery methods to that country
+#                         (e.g. ["Bank deposit", "Pickup", "Mobile topup", "Delivery"])
+#    - waivers.first_transfer_no_fees : if true, the first transfer has zero fees
+#                                       (no payment_methods fees apply on the customer's first transfer)
+#    - waivers.all_transfer_no_fees   : if true, ALL transfers have zero fees
+#                                       (no payment_methods fees apply on any transfer to this corridor)
+#    - country_flag_icon : URL to SVG flag image
+#
+#    IMPORTANT: A country may appear MULTIPLE TIMES with different currencies.
+#    For example, Ukraine (UKR) may have corridors for both UAH and USD.
+#    Always match on BOTH country_code AND currency_code when looking up a specific corridor.
+#
+# 2. "payment_methods" (array) — How the SENDER pays from Canada:
+#    - type : Payment method name ("RemitBee Wallet", "Interac", "Debit")
+#    - fees : Object mapping CAD amount ranges to fee charged
+#             Keys are ranges like "0-500" or ">500", values are fee strings like "2.99 CAD"
+#             The ">" prefix means "greater than" (e.g. ">500" = amounts above $500 CAD)
+#
+# HOW TO USE:
+# - To find a rate: filter rates[] by country_code or currency_code
+# - To calculate: sending_amount * rate = approximate receiving_amount
+# - special_rate is for FIRST-TIME users only. The first special_rate_limit CAD converts
+#   at special_rate; any excess converts at the standard rate.
+#   Example: special_rate=71.99, rate=68.29, special_rate_limit=250.
+#   A first-time user sending 400 CAD gets: (250 * 71.99) + (150 * 68.29)
+# - To find fees: match sender's payment method in payment_methods[], then find the range
+#   that contains the sending_amount
+# ==============================================================================</span>
+
+{
+  "rates": [
+    {
+      "country_code": "IND",
+      "currency_name": "Indian Rupee",
+      "currency_code": "INR",
+      "rate": "68.1125",
+      "special_rate": "71.1125",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/IN.svg"
+    },
+    {
+      "country_code": "LKA",
+      "currency_name": "Sri Lanka Rupee",
+      "currency_code": "LKR",
+      "rate": "240.00",
+      "special_rate": "250.00",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup",
+        "Delivery"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/LK.svg"
+    },
+    {
+      "country_code": "FRA",
+      "currency_name": "French Euro",
+      "currency_code": "EUR",
+      "rate": "0.6199",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/FR.svg"
+    },
+    {
+      "country_code": "GBR",
+      "currency_name": "Pound Sterling",
+      "currency_code": "GBP",
+      "rate": "0.5252",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/GB.svg"
+    },
+    {
+      "country_code": "CHE",
+      "currency_name": "Swiss Franc",
+      "currency_code": "CHF",
+      "rate": "0.5648",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CH.svg"
+    },
+    {
+      "country_code": "AUS",
+      "currency_name": "Australian Dollar",
+      "currency_code": "AUD",
+      "rate": "1.0043",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/AU.svg"
+    },
+    {
+      "country_code": "SGP",
+      "currency_name": "Singapore Dollar",
+      "currency_code": "SGD",
+      "rate": "0.9069",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SG.svg"
+    },
+    {
+      "country_code": "USA",
+      "currency_name": "United States Dollar",
+      "currency_code": "USD",
+      "rate": "0.7065",
+      "special_rate": "0.714",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/US.svg"
+    },
+    {
+      "country_code": "VNM",
+      "currency_name": "Dong",
+      "currency_code": "VND",
+      "rate": "18481.7392",
+      "special_rate": "18931.7392",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup",
+        "Mobile topup",
+        "Delivery"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/VN.svg"
+    },
+    {
+      "country_code": "MYS",
+      "currency_name": "Malaysian Ringgit",
+      "currency_code": "MYR",
+      "rate": "2.8441",
+      "special_rate": "2.9441",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/MY.svg"
+    },
+    {
+      "country_code": "NOR",
+      "currency_name": "Norwegian Krone",
+      "currency_code": "NOK",
+      "rate": "6.6648",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/NO.svg"
+    },
+    {
+      "country_code": "DEU",
+      "currency_name": "German Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/DE.svg"
+    },
+    {
+      "country_code": "CZE",
+      "currency_name": "Czech Koruna",
+      "currency_code": "CZK",
+      "rate": "14.8592",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CZ.svg"
+    },
+    {
+      "country_code": "DNK",
+      "currency_name": "Danish Krone",
+      "currency_code": "DKK",
+      "rate": "4.6131",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/DK.svg"
+    },
+    {
+      "country_code": "HUN",
+      "currency_name": "Forint",
+      "currency_code": "HUF",
+      "rate": "222.2439",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/HU.svg"
+    },
+    {
+      "country_code": "POL",
+      "currency_name": "Zloty",
+      "currency_code": "PLN",
+      "rate": "2.6766",
+      "special_rate": "2.7066",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/PL.svg"
+    },
+    {
+      "country_code": "SWE",
+      "currency_name": "Swedish Krona",
+      "currency_code": "SEK",
+      "rate": "6.826",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SE.svg"
+    },
+    {
+      "country_code": "ESP",
+      "currency_name": "Spanish Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/ES.svg"
+    },
+    {
+      "country_code": "NLD",
+      "currency_name": "Netherlands Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/NL.svg"
+    },
+    {
+      "country_code": "NZL",
+      "currency_name": "New Zealand Dollar",
+      "currency_code": "NZD",
+      "rate": "1.1919",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/NZ.svg"
+    },
+    {
+      "country_code": "LUX",
+      "currency_name": "Luxembourg Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/LU.svg"
+    },
+    {
+      "country_code": "ARE",
+      "currency_name": "UAE Dirham",
+      "currency_code": "AED",
+      "rate": "2.5695",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/AE.svg"
+    },
+    {
+      "country_code": "HKG",
+      "currency_name": "Hong Kong Dollar",
+      "currency_code": "HKD",
+      "rate": "5.4714",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/HK.svg"
+    },
+    {
+      "country_code": "JPN",
+      "currency_name": "Yen",
+      "currency_code": "JPY",
+      "rate": "114.4562",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/JP.svg"
+    },
+    {
+      "country_code": "MEX",
+      "currency_name": "Mexican Peso",
+      "currency_code": "MXN",
+      "rate": "12.2693",
+      "special_rate": "12.6193",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/MX.svg"
+    },
+    {
+      "country_code": "SAU",
+      "currency_name": "Saudi Riyal",
+      "currency_code": "SAR",
+      "rate": "2.6145",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SA.svg"
+    },
+    {
+      "country_code": "ZAF",
+      "currency_name": "Rand",
+      "currency_code": "ZAR",
+      "rate": "11.4142",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/ZA.svg"
+    },
+    {
+      "country_code": "THA",
+      "currency_name": "Baht",
+      "currency_code": "THB",
+      "rate": "23.7107",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/TH.svg"
+    },
+    {
+      "country_code": "TUR",
+      "currency_name": "Turkish Lira",
+      "currency_code": "TRY",
+      "rate": "33.4661",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/TR.svg"
+    },
+    {
+      "country_code": "AND",
+      "currency_name": "Andorra Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/AD.svg"
+    },
+    {
+      "country_code": "BEL",
+      "currency_name": "Belgian Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/BE.svg"
+    },
+    {
+      "country_code": "AUT",
+      "currency_name": "Austrian Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/AT.svg"
+    },
+    {
+      "country_code": "CYP",
+      "currency_name": "Cypriot Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CY.svg"
+    },
+    {
+      "country_code": "EST",
+      "currency_name": "Estonian Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/EE.svg"
+    },
+    {
+      "country_code": "FIN",
+      "currency_name": "Finnish Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/FI.svg"
+    },
+    {
+      "country_code": "GRC",
+      "currency_name": "Greek Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/GR.svg"
+    },
+    {
+      "country_code": "IRL",
+      "currency_name": "Irish Euro",
+      "currency_code": "EUR",
+      "rate": "0.6184",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/IE.svg"
+    },
+    {
+      "country_code": "ITA",
+      "currency_name": "Italian Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/IT.svg"
+    },
+    {
+      "country_code": "MLT",
+      "currency_name": "Maltese Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/MT.svg"
+    },
+    {
+      "country_code": "MCO",
+      "currency_name": "Monaco Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/MC.svg"
+    },
+    {
+      "country_code": "MNE",
+      "currency_name": "Montenegro Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/ME.svg"
+    },
+    {
+      "country_code": "PRT",
+      "currency_name": "Portuguese Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/PT.svg"
+    },
+    {
+      "country_code": "SMR",
+      "currency_name": "Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SM.svg"
+    },
+    {
+      "country_code": "SVK",
+      "currency_name": "Slovakia Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SK.svg"
+    },
+    {
+      "country_code": "SVN",
+      "currency_name": "Slovenia Euro",
+      "currency_code": "EUR",
+      "rate": "0.6149",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SI.svg"
+    },
+    {
+      "country_code": "QAT",
+      "currency_name": "Qatari Rial",
+      "currency_code": "QAR",
+      "rate": "2.5364",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/QA.svg"
+    },
+    {
+      "country_code": "CHN",
+      "currency_name": "Yuan Renminbi",
+      "currency_code": "CNY",
+      "rate": "4.7384",
+      "special_rate": "4.7884",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Mobile topup",
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CN.svg"
+    },
+    {
+      "country_code": "PHL",
+      "currency_name": "Philippine Peso",
+      "currency_code": "PHP",
+      "rate": "43.4795",
+      "special_rate": "44.9795",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/PH.svg"
+    },
+    {
+      "country_code": "PAK",
+      "currency_name": "Pakistani Rupee",
+      "currency_code": "PKR",
+      "rate": "197.0533",
+      "special_rate": "203.5533",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/PK.svg"
+    },
+    {
+      "country_code": "ARG",
+      "currency_name": "Argentine Peso",
+      "currency_code": "ARS",
+      "rate": "1112.7512",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/AR.svg"
+    },
+    {
+      "country_code": "CHL",
+      "currency_name": "Chilean Peso",
+      "currency_code": "CLP",
+      "rate": "661.8511",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CL.svg"
+    },
+    {
+      "country_code": "COL",
+      "currency_name": "Colombian Peso",
+      "currency_code": "COP",
+      "rate": "2289.9526",
+      "special_rate": "2349.9526",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CO.svg"
+    },
+    {
+      "country_code": "CRI",
+      "currency_name": "Costa Rican Colon",
+      "currency_code": "CRC",
+      "rate": "322.5309",
+      "special_rate": "323.5309",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CR.svg"
+    },
+    {
+      "country_code": "DOM",
+      "currency_name": "Dominican Peso",
+      "currency_code": "DOP",
+      "rate": "40.5493",
+      "special_rate": "42.5493",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/DO.svg"
+    },
+    {
+      "country_code": "ECU",
+      "currency_name": "US Dollar",
+      "currency_code": "USD",
+      "rate": "0.7105",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/EC.svg"
+    },
+    {
+      "country_code": "SLV",
+      "currency_name": "US Dollar",
+      "currency_code": "USD",
+      "rate": "0.7005",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank Deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SV.svg"
+    },
+    {
+      "country_code": "GTM",
+      "currency_name": "Quetzal",
+      "currency_code": "GTQ",
+      "rate": "5.3719",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/GT.svg"
+    },
+    {
+      "country_code": "HTI",
+      "currency_name": "US Dollar",
+      "currency_code": "USD",
+      "rate": "0.7105",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/HT.svg"
+    },
+    {
+      "country_code": "HND",
+      "currency_name": "Lempira",
+      "currency_code": "HNL",
+      "rate": "18.9407",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/HN.svg"
+    },
+    {
+      "country_code": "PRY",
+      "currency_name": "Guarani",
+      "currency_code": "PYG",
+      "rate": "4237.5115",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/PY.svg"
+    },
+    {
+      "country_code": "PER",
+      "currency_name": "Nuevo Sol",
+      "currency_code": "PEN",
+      "rate": "2.3936",
+      "special_rate": "2.4236",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/PE.svg"
+    },
+    {
+      "country_code": "URY",
+      "currency_name": "Peso Uruguayo",
+      "currency_code": "UYU",
+      "rate": "27.8367",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/UY.svg"
+    },
+    {
+      "country_code": "KEN",
+      "currency_name": "Kenyan Shilling",
+      "currency_code": "KES",
+      "rate": "90.7529",
+      "special_rate": "95.2529",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/KE.svg"
+    },
+    {
+      "country_code": "BGD",
+      "currency_name": "Bangladeshi Taka",
+      "currency_code": "BDT",
+      "rate": "86.8154",
+      "special_rate": "89.6654",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/BD.svg"
+    },
+    {
+      "country_code": "NPL",
+      "currency_name": "Nepalese Rupee",
+      "currency_code": "NPR",
+      "rate": "108.3414",
+      "special_rate": "114.3414",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Mobile topup",
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/NP.svg"
+    },
+    {
+      "country_code": "CMR",
+      "currency_name": "Cameroon CFA franc",
+      "currency_code": "XAF",
+      "rate": "401.292",
+      "special_rate": "414.942",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CM.svg"
+    },
+    {
+      "country_code": "ETH",
+      "currency_name": "Ethiopian Birr",
+      "currency_code": "ETB",
+      "rate": "114.647",
+      "special_rate": "115.647",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/ET.svg"
+    },
+    {
+      "country_code": "GHA",
+      "currency_name": "Ghana Cedi",
+      "currency_code": "GHS",
+      "rate": "8.3218",
+      "special_rate": "9.1718",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/GH.svg"
+    },
+    {
+      "country_code": "RWA",
+      "currency_name": "Rwanda Franc",
+      "currency_code": "RWF",
+      "rate": "1026.4533",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/RW.svg"
+    },
+    {
+      "country_code": "KOR",
+      "currency_name": "South Korean Won",
+      "currency_code": "KRW",
+      "rate": "1032.3442",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/KR.svg"
+    },
+    {
+      "country_code": "ROU",
+      "currency_name": "New Romanian Leu",
+      "currency_code": "RON",
+      "rate": "3.233",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/RO.svg"
+    },
+    {
+      "country_code": "SEN",
+      "currency_name": "Senegal CFA Franc",
+      "currency_code": "XOF",
+      "rate": "401.292",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SN.svg"
+    },
+    {
+      "country_code": "TZA",
+      "currency_name": "Tanzanian Shilling",
+      "currency_code": "TZS",
+      "rate": "1862.1242",
+      "special_rate": "1882.1242",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/TZ.svg"
+    },
+    {
+      "country_code": "UGA",
+      "currency_name": "Uganda Shilling",
+      "currency_code": "UGX",
+      "rate": "2629.421",
+      "special_rate": "2679.421",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Mobile topup",
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/UG.svg"
+    },
+    {
+      "country_code": "CIV",
+      "currency_name": "Cote d Ivoire CFA Franc",
+      "currency_code": "XOF",
+      "rate": "400.292",
+      "special_rate": "408.812",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/CI.svg"
+    },
+    {
+      "country_code": "BRA",
+      "currency_name": "Brazilian Real",
+      "currency_code": "BRL",
+      "rate": "3.558",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/BR.svg"
+    },
+    {
+      "country_code": "NGA",
+      "currency_name": "Naira",
+      "currency_code": "NGN",
+      "rate": "990.6709",
+      "special_rate": "1040.6709",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/NG.svg"
+    },
+    {
+      "country_code": "BFA",
+      "currency_name": "Burkina Faso CFA Franc",
+      "currency_code": "XOF",
+      "rate": "408.292",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/BF.svg"
+    },
+    {
+      "country_code": "EGY",
+      "currency_name": "Egyptian Pound",
+      "currency_code": "EGP",
+      "rate": "36.308",
+      "special_rate": "37.308",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/EG.svg"
+    },
+    {
+      "country_code": "JOR",
+      "currency_name": "Jordanian Dinar",
+      "currency_code": "JOD",
+      "rate": "0.4963",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/JO.svg"
+    },
+    {
+      "country_code": "KWT",
+      "currency_name": "Kuwaiti Dinar",
+      "currency_code": "KWD",
+      "rate": "0.2199",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/KW.svg"
+    },
+    {
+      "country_code": "JAM",
+      "currency_name": "Jamaican Dollar",
+      "currency_code": "JMD",
+      "rate": "111.7876",
+      "special_rate": "117.8076",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/JM.svg"
+    },
+    {
+      "country_code": "UKR",
+      "currency_name": "Hryvnia",
+      "currency_code": "UAH",
+      "rate": "31.4467",
+      "special_rate": "33.9467",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/UA.svg"
+    },
+    {
+      "country_code": "IDN",
+      "currency_name": "Rupiah",
+      "currency_code": "IDR",
+      "rate": "12706.9192",
+      "special_rate": "12856.9192",
+      "special_rate_limit": "250.00",
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": true,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/ID.svg"
+    },
+    {
+      "country_code": "DZA",
+      "currency_name": "Algerian Dinar",
+      "currency_code": "DZD",
+      "rate": "93.6061",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Mobile topup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/DZ.svg"
+    },
+    {
+      "country_code": "BHR",
+      "currency_name": "Bahraini Dinar",
+      "currency_code": "BHD",
+      "rate": "0.2672",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit",
+        "Pickup"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/BH.svg"
+    },
+    {
+      "country_code": "OMN",
+      "currency_name": "Rial Omani",
+      "currency_code": "OMR",
+      "rate": "0.2735",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/OM.svg"
+    },
+    {
+      "country_code": "ISR",
+      "currency_name": "New Israeli Sheqel",
+      "currency_code": "ILS",
+      "rate": "2.1687",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/IL.svg"
+    },
+    {
+      "country_code": "GEO",
+      "currency_name": "Lari",
+      "currency_code": "GEL",
+      "rate": "1.863",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/GE.svg"
+    },
+    {
+      "country_code": "SLE",
+      "currency_name": "Leone",
+      "currency_code": "SLE",
+      "rate": "16.2645",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/SL.svg"
+    },
+    {
+      "country_code": "MNG",
+      "currency_name": "Tugrik",
+      "currency_code": "MNT",
+      "rate": "2548.954",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/MN.svg"
+    },
+    {
+      "country_code": "KAZ",
+      "currency_name": "Tenge",
+      "currency_code": "KZT",
+      "rate": "334.2525",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/KZ.svg"
+    },
+    {
+      "country_code": "KGZ",
+      "currency_name": "Som",
+      "currency_code": "KGS",
+      "rate": "62.1285",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/KG.svg"
+    },
+    {
+      "country_code": "TJK",
+      "currency_name": "Somoni",
+      "currency_code": "TJS",
+      "rate": "6.5766",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/TJ.svg"
+    },
+    {
+      "country_code": "UZB",
+      "currency_name": "Uzbekistan Sum",
+      "currency_code": "UZS",
+      "rate": "8511.3876",
+      "special_rate": null,
+      "special_rate_limit": null,
+      "receiving_methods": [
+        "Bank deposit"
+      ],
+      "waivers": {
+        "first_transfer_no_fees": false,
+        "all_transfer_no_fees": false
+      },
+      "country_flag_icon": "https://mtescommon.blob.core.windows.net/country-flags-v2/UZ.svg"
+    }
+  ],
+  "payment_methods": [
+    {
+      "type": "RemitBee Wallet",
+      "fees": {
+        "0-500": "2.99 CAD",
+        "&gt;500": "0.00 CAD"
+      }
+    },
+    {
+      "type": "Interac",
+      "fees": {
+        "&gt;0": "2.99 CAD"
+      }
+    },
+    {
+      "type": "Debit",
+      "fees": {
+        "0.01-100": "2.99 CAD",
+        "100.01-300": "4.99 CAD",
+        "300.01-500": "6.99 CAD",
+        "500.01-1000": "8.99 CAD",
+        "1000.01-1499.99": "14.99 CAD",
+        "1500.00-1999.99": "19.99 CAD",
+        "2000.00-2499.99": "24.99 CAD",
+        "&gt;2500.00": "29.99 CAD"
+      }
+    }
+  ]
+}
+
+<span class="separator"># ==============================================================================
+# END OF FILE
+# ==============================================================================</span>
+        </pre>
+    </div>
+</body>
+</html>

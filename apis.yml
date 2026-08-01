@@ -1,7 +1,18 @@
 aid: remitbee
 name: Remitbee
-description: Remitbee is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Remitbee is a Canadian licensed money-services business (FINTRAC-regulated,
+  founded 2014, Mississauga, Ontario) offering low-cost international money
+  transfers from Canada to 100+ countries across 89 published corridors, along
+  with CAD/USD currency exchange, mobile top-ups / recharge, international bill
+  payments, gift cards, travel eSIMs, and business money-transfer accounts.
+  Customers fund transfers via Interac e-Transfer, EFT bank transfer, bill
+  payment, or debit card, with zero fees on transfers above $500 CAD and live,
+  transparent exchange rates. Remitbee operates consumer web and iOS/Android
+  apps; it exposes partner/embedded integration APIs but publishes no public
+  self-serve developer portal, OpenAPI, or OAuth surface. It does publish a
+  /llms.txt agent-ingestion index of its corridor pages. Added to the API
+  Evangelist network as a 500 Global portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/remitbee/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.remitbee.com/favicon.ico
 tags:
 - Company
+- Money Transfer
+- Remittances
+- Currency Exchange
+- Payments
+- Fintech
+- Cross-Border Payments
+- Mobile Top-Up
+- Bill Payment
+- Canada
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://remitbee.com
+  url: https://www.remitbee.com
+- type: Support
+  url: https://www.remitbee.com/help
+- type: Blog
+  url: https://www.remitbee.com/blog
+- type: TermsOfService
+  url: https://www.remitbee.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.remitbee.com/privacy
+- type: LLMsTxt
+  url: llms/remitbee-llms.txt
+- type: DomainSecurity
+  url: security/remitbee-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
